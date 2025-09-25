@@ -2,6 +2,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
+import Link from "next/link";
 
 export default function Gela() {
   return (
@@ -13,12 +14,9 @@ export default function Gela() {
       justifyContent={"space-between"}
       alignItems={"center"}
     >
-      <Box>
-        <h1 style={{ fontSize: "24px", color: "white" }}>Next.js</h1>
-      </Box>
-      <Box>
-        <Typography variant="h1">lala lend</Typography>
-      </Box>
+      <h1 className="text-3xl">
+        <Link href={"/dashboard"}>Dashboard</Link>
+      </h1>
     </Box>
   );
 }
