@@ -8,7 +8,7 @@ export default function Gela() {
   return (
     <Box
       height="auto"
-      width="100%"
+      width="8%"
       bgcolor="red"
       display="flex"
       justifyContent={"space-between"}
